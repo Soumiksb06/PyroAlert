@@ -7,7 +7,7 @@ import tempfile
 import os
 
 # Load the YOLO model
-yolo_model = YOLO('/kaggle/input/yolo11fire/best.onnx')  # Update the path as needed
+yolo_model = YOLO('best.onnx')  # Update the path as needed
 
 # Configure Streamlit app
 st.title("🔥 YOLO Fire Detection App")
